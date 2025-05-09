@@ -1,0 +1,99 @@
+
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: white;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #2c0580, #eb133e);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.logo {
+  width: 220px;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: white;
+  color: #e0006c;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background-color: #ddd;
+}
+
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.intro {
+  background: linear-gradient(to right, #2c0580, #eb133e);
+}
+
+.courses {
+  background: linear-gradient(to right, #2c0580, #eb133e);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background: #111;
+  font-size: 0.9rem;
+  background: linear-gradient(to right, #2c0580, #eb133e);
+}
